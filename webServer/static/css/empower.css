@@ -1,0 +1,81 @@
+*{margin:0;padding:0;}
+html{font-size:62.5%;}
+em,i{font-style: normal;}
+body{font-family: Microsoft YaHei,Arial, Helvetica, sans-serif;color:#666666;background-color: #f9f9f9}
+/*-----------------------------------header--------------------------------------------------------------------------*/
+
+
+/*---------------------------------container------------------------------------------------------------------------*/
+.container{
+	padding:0;
+	width: 100%;
+	height: auto;
+}
+#all{
+	margin:0 10px;
+	background-color: #FFF;
+	border-radius: 8px;
+
+}
+#head{
+	background-color: #feb95e;
+	height: 120px;
+	width: 100%;
+	border-radius: 8px;
+	margin:70px 0 0 0;
+	text-align:center;
+}
+#head p{
+	color:#fff;
+	font-size: 18px;
+	padding-top:80px;
+
+}
+#empower_condition{
+	padding:0px 10px 10px 10px;
+}
+#empower_condition ul{
+	padding-left: 20px;
+	font-size: 14px;
+}
+#empower_condition ul li{
+	margin:8px 0px;
+}
+#empower_condition ul li em{
+	color:#3399ff;
+}
+#empower_condition h1{
+	font-size: 16px;
+	margin:20px 0px;
+}
+
+#empower_condition h1 em{
+	color:#feac5e;
+}
+
+#empower_condition label input{
+	margin:0px 5px;
+}
+#shop{
+	text-align: center;
+}
+#shop #hqb{
+	color:#cccccc;
+
+}
+.go_now{
+	background-color: #feac5e;
+	width: 100%;
+	
+	position:fixed;
+	bottom:0px;
+	left:0;
+}
+.button_right{
+	margin:0px;
+	height:43px;
+	line-height: 43px;
+	text-align: center;
+	color:white;
+	font-size: 17px;
+}

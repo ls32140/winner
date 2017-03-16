@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp_borrow">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <!--导入样式，如过不导入，则不会使用样式-->
+    <link href="../static/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/changNum.css"/>
+    <title>宝贝详情</title>
+</head>
+<body>
+    <div class="container">
+        <div id="shop">
+            <img src="../static/images/hjs.jpg" alt="">
+        </div>
+        <div id="password">
+            <input type="text" value="请输入惠金所交易密码" onclick="this.value=''">
+        </div>
+        <div class="go_now" id="do_now" onclick="document.location.href='/success'">
+            <p class="button_right">立即支付</p>
+        </div>
+    </div>
+<script src="../static/bootstrap/jquery-2.1.1.min.js"></script>
+<script src="../static/bootstrap/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+*{margin:0;padding:0;}
+html{font-size:62.5%;}
+em,i{font-style: normal;}
+body{font-family: Microsoft YaHei,Arial, Helvetica, sans-serif;color:#666666;background-color: #f9f9f9}
+/*-----------------------------------header--------------------------------------------------------------------------*/
+
+
+/*---------------------------------container------------------------------------------------------------------------*/
+.container{
+	padding:0;
+	width: 100%;
+	height: auto;
+}
+
+#shop{
+	text-align: center;
+	margin:70px 0 30px 0;
+}
+#shop img{
+	height: 60px;
+}
+#password{
+	text-align: center;
+}
+#password input{
+	height: 50px;
+	width: 80%;
+	border:2px solid #ccc;
+	text-align: center;
+	border-radius: 7px;
+}
+.go_now{
+	background-color: #feac5e;
+	width: 100%;
+	position:fixed;
+	bottom:0px;
+	left:0;
+
+}
+.button_right{
+	margin:0px;
+	height:43px;
+	line-height: 43px;
+	text-align: center;
+	color:white;
+	font-size: 17px;
+}

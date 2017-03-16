@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp_borrow">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <!--导入样式，如过不导入，则不会使用样式-->
+    <link href="../static/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/success.css"/>
+    <title>宝贝详情</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div id="ok_pic">
+            <p>支付成功</p>
+            <img src="../static/images/ok.png" alt="">
+            <p>恭喜您，抢到心仪的宝贝</p>
+        </div>
+        <div id="detail">
+            <table>
+                <tr>
+                    <td id="shop_detial" class="choose">查看宝贝详情</td>
+                    <td id="hjs">查看惠钱包存钱计划</td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="thing">
+                        <div id="shop_show" >
+                            <span id="thing_pic">
+                        <img src="http://z11.tuanimg.com/imagev2/trade/800x800.51484ad4192023bbbad6d3bd79dea925.600x.jpg.webp" alt="">
+                        </span>
+                        <span id="show">
+                            <p class="weak">加厚防爆正品瑜伽球</p>
+                            <p class="weak">颜色分类：紫色，直径：55cm</p>
+                            <strong id="currunt">¥19.9
+                            </strong>
+                        </span>
+                        </div>
+                       
+                    </td>
+                    <td colspan="2" id="hjs_detail" style="display:none">
+                        <dl>
+                            <dt>存入时间</dt>
+                            <dd>96天</dd>
+                        </dl>
+                        <dl>
+                            <dt>存入金额</dt>
+                            <dd>1500.00元</dd>
+                        </dl>
+                        <dl>
+                            <dt>存入金额归还时间</dt>
+                            <dd>2017-10-23</dd>
+                        </dl>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="display:none" id="hjs_go">
+                        <img style="height:100%;float:left" src="../static/images/hjs.jpg" alt="">
+                        去看看我的资金保障>
+                    </td>
+                    <td colspan="2" id="shop_go">
+                        去看看我刚拿到的宝贝>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="tall">
+            <hr/>
+            <span>为您推荐</span>
+        </div>
+        <div id="tall_shop">
+            <dl>
+                <dt>
+                    <img src="http://z2.tuanimg.com/imagev2/trade/600x600.180f87c0b6b9801bccd35041dd5e06f7.310x310.jpg" alt="">
+                </dt>
+                <dd>
+                    <em>¥14.2</em><del class="del_currunt">¥23.5</del>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="http://z3.tuanimg.com/imagev2/trade/800x800.0011199e136ceb21c9862ab7ef369c31.310x310.jpg" alt="">
+                </dt>
+                <dd>
+                    <em>¥58.2</em><del class="del_currunt">¥73.4</del>
+                </dd>
+            </dl>
+        </div>
+        
+    </div>
+<script src="../static/bootstrap/jquery-2.1.1.min.js"></script>
+<script src="../static/bootstrap/bootstrap.min.js"></script>
+<script src="../static/js/success.js"></script>
+
+</body>
+</html>

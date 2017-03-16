@@ -1,0 +1,16 @@
+$("#shop_detial").on("click",function(e){
+    $("#shop_detial").attr("class","choose");
+    $("#hjs").attr("class","");
+    $("#thing").css("display","table-cell");
+    $("#hjs_detail").css("display","none");
+    $("#hjs_go").css("display","none");
+    $("#shop_go").css("display","table-cell");
+})
+$("#hjs").on("click",function(e){
+    $("#shop_detial").attr("class","");
+    $("#hjs").attr("class","choose");
+    $("#thing").css("display","none");
+    $("#hjs_detail").css("display","table-cell");
+    $("#hjs_go").css("display","table-cell");
+    $("#shop_go").css("display","none");
+})

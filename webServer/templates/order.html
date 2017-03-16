@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp_borrow">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <!--导入样式，如过不导入，则不会使用样式-->
+    <link rel="stylesheet" href="../static/css/order.css"/>
+    <title>宝贝详情</title>
+</head>
+<body>
+    <div class="container">
+        <div class="dt_order">
+            <div class="dt_detail">
+                <div class="dt_top" id="topBar">确认订单</div>
+                <div class="u_address">
+                    <div class="u_address_d">
+                        <i class="icon_pos"></i>
+                        <div class="address" id="dt_address">
+                            <span class="toaddress">北京市海淀区清华园惠金所</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dt_commodity_info" id="mydata" freight="0" all_item="0">
+                    <div class="tit">
+                        <div class="tit_left normalSeller">同泽商贸电器特卖店
+                        </div>
+                    </div>
+                    <dl class="commodity_info">
+                        <dt>
+                            <img src="http://z13.tuanimg.com/imagev2/trade/800x800.a1551981de199047ac0e1bd6e5605372.150x150.jpg" width="85" height="85" alt="">
+                        </dt>
+                        <dd>
+                            <div class="title-price">
+                                <h3>秀翰加厚防爆瑜珈球 孕妇瘦身美体运动健身球</h3>
+                                <span class="price">&yen; 19.90</span>
+                            </div>
+                            <div class="attr" id="ord_imes">
+                                <span>颜色：蓝色   尺码：75CM</span>
+                            </div>
+                            <div id="day8return">8天包退，赠送退货补贴券</div>
+                            <span class="dt_ord_numm">
+                                <span class="dt_ord_numm_m">
+                                    <span id="dt_ordsubt"></span>
+                                    <span id="dt_ordnum">1</span>
+                                    <span id="dt_ordadd"></span>
+                                </span>
+                            </span>
+                        </dd>
+                    </dl>
+                    <div class="item">
+                        <span class="attname postage">
+                            运费：
+                            <span class="send-time">
+                            (24小时内发货，超时就赔)
+                            </span>
+                        </span>
+                        <span class="attval" id="dtord_yf">
+                            <span data-num="0">包邮</span>
+                        </span>
+                    </div>
+
+                    <div class="item message">
+                        <span class="attname">买家留言：</span>
+                        <input type="text" value="选填，不超过140字" class="dt_ord_input" maxlength="200">
+                    </div>
+                    <div class="item last_item seller_all" style="display: block;">
+                        <span> 共
+                            <i class="seller_count">1</i>
+                        件商品，合计：
+                            <i class="seller_amount">19.9</i>
+                        </span>
+                    </div>
+                </div>
+                <div class="new_pay_div">
+                    <div class="new_pay_line" id="dt_ord_youhui">
+                        <div class="new_pay_line_left" id="dt_ord_yhjmes">请选择优惠券</div>
+                        <div class="yhq_div"><span class="yhq_on"></span></div>
+                        <span class="coupon_count"></span>
+                    </div>
+                </div>
+                <div class="new_pay_line">
+                    <div class="new_pay_line_left">赠送运费补贴券，部分商品除外
+                    </div>
+                </div>
+                <div class="address_heji">
+                    <div class="address_down"></div>
+                    <div class="heji">
+                        <div class="heji_right">
+                            <span id="dt_goPay" onclick="document.location.href='/empower'">提交订单</span>
+                        </div>
+                        <div class="heji_left">
+                            <div class="heji_left_p">
+                                <span class="heji_left_phj">实付款：</span>
+                                <span class="heji_left_pp">¥<span id="dt_ord_t2">19.9</span></span>
+                                <span class="heji_left_yf"></span>
+                            </div>
+                        </div>
+                        <span id="dt_ord_t1" style="display: none"></span>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+<script src="../static/bootstrap/jquery-2.1.1.min.js"></script>
+
+
+
+</body>
+</html>

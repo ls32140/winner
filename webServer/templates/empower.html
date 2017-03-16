@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp_borrow">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <!--导入样式，如过不导入，则不会使用样式-->
+    <link href="../static/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/empower.css"/>
+    <title>宝贝详情</title>
+</head>
+<body>
+    <div class="container">
+        <div id="all">
+            <div id="head">
+                <p>惠金所-惠钱包帮您免费得宝贝</p>
+            </div>
+            <div id="empower_condition">
+                <h1>使用<em>**tao</em>账号授权并登录</h1>
+                <ul>
+                    <li>获取你的基本信息（包括但不限于用户名，昵称等）</li>
+                    <li><em>《惠金所用户服务协议》</em></li>
+                    <li><em>《钱包服务协议》</em></li>
+                </ul>
+                <label for=""><input type="checkbox">我已阅读并同意以上条款</label>
+            </div>
+        </div>
+        <div class="go_now" id="do_now" onclick="document.location.href='/buy'">
+                <p class="button_right">授权并登录</p>
+        </div>
+        <div id="shop">
+            <img src="../static/images/hjs.jpg" alt="">
+            <p id="hqb">此惠钱包存钱计划由惠金所提供，查看详情></p>
+        </div>
+    </div>
+<script src="../static/bootstrap/jquery-2.1.1.min.js"></script>
+<script src="../static/bootstrap/bootstrap.min.js"></script>
+
+</body>
+</html>
