@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 16</title>
+    <link rel="stylesheet" href="css_19.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://static.runoob.com/assets/react/react-0.14.7/build/react.min.js"></script>
+    <script src="http://static.runoob.com/assets/react/react-0.14.7/build/react-dom.min.js"></script>
+    <script src="http://static.runoob.com/assets/react/browser.min.js"></script>
+  </head>
+<body>
+	<div id="big"></div>
+	<script type="text/babel">
+    var Sb = React.createClass({
+      handleClick:function(){
+        this.refs.shuru.focus();
+        this.refs.shuru.value = "kkkkkk";
+      },
+      render:function(){
+        return(
+          <div>
+            <input type="text" ref="shuru" />
+            <input type="button" onClick={this.handleClick} value="点击"/>
+          </div> 
+        );
+      }
+    });
+    ReactDOM.render(
+      <Sb></Sb>,
+      document.getElementById("big")
+    );
+  </script>
+</body>
+</html>

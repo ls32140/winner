@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 16</title>
+    <link rel="stylesheet" href="css_19.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://static.runoob.com/assets/react/react-0.14.7/build/react.min.js"></script>
+    <script src="http://static.runoob.com/assets/react/react-0.14.7/build/react-dom.min.js"></script>
+    <script src="http://static.runoob.com/assets/react/browser.min.js"></script>
+  </head>
+<body>
+	<div id="big">
+		
+	</div>
+	<script type="text/babel">
+    var NodeList = React.createClass({
+      render:function(){
+        return (
+          <ol>
+            {
+              React.Children.map(this.props.children,function(child){
+              return <li>{child}</li>;
+              })
+            }
+          </ol>
+        )
+      } 
+    });
+    ReactDOM.render(
+      <NodeList name="who">
+        <span>kn</span>
+        <span>lw</span>
+      </NodeList>,
+      document.getElementById("big")
+    );
+  </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 16</title>
+    <link rel="stylesheet" href="css_19.css">
+    <script src="../build/jquery.min.js"></script>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+  </head>
+<body>
+	<div id="big"></div>
+	<script type="text/babel">
+    var a = [1,2,4,5];
+    ReactDOM.render(
+      <div>
+      {
+        a.map(function(num){
+          return <div>{num}</div>;
+        })
+      }
+      </div>,
+      document.getElementById("big")
+    );
+  </script>
+</body>
+</html>
